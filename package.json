@@ -1,0 +1,32 @@
+{
+  "name": "kabira-backend",
+  "version": "1.0.0",
+  "description": "kabira mobility backend integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_ENV=development nodemon index.js",
+    "prod": "NODE_ENV=production nodemon index.js"
+  },
+  "keywords": [
+    "node.js",
+    "mongodb",
+    "kabira"
+  ],
+  "author": "apexcup",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1147.0",
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-unless": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "twilio": "^3.77.1"
+  }
+}
